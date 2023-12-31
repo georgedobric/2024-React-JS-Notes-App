@@ -1,0 +1,202 @@
+.z1 {
+    z-index: 1;
+  }
+  
+  .z0 {
+    z-index: 0;
+  }
+  
+  .nodeContainer {
+    position: absolute;
+    height: 45vh;
+    width: 45vw;
+    top: 51%;
+    left: 5px;
+    overflow: auto;
+    overflow-wrap:normal;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+  }
+  
+  .nodeWindowBorder {
+    position:absolute;
+    height: 45vh;
+    width: 45vw;
+    top: 50%;
+    left: 5px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: rgba(255, 0, 0, 0.5); /* Red color with 50% transparency */
+    pointer-events: none;
+    border-width: 5px;
+    border-style: solid;
+    overflow: auto;
+    overflow-wrap:normal;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .nodeWindow {
+    position:absolute;
+    height: 45vh;
+    width: 45vw;
+    top: 50%;
+    left: 5px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: blue;
+    pointer-events: none;
+    border-width: 5px;
+    border-style: solid;
+    overflow: auto;
+    overflow-wrap:normal;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .box {
+    position:absolute;  
+    background-color: lightcoral;
+      padding: 10px;
+      border-radius: 5px;
+      width: 10vw; /* Set the width to 1/20th of the viewport width */
+      margin-bottom: 10px;
+      margin-left: 10px;
+      top: 49vh;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      z-index: 1;
+  
+      position: static;
+  }
+  
+  .previewBox {
+    position:absolute;  
+    background-color: lightblue;
+      padding: 10px;
+      border-radius: 5px;
+      width: 10vw; /* Set the width to 1/20th of the viewport width */
+      margin-bottom: 10px;
+      margin-left: 200px;
+      top: 49vh;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      z-index: 1;
+  }
+  
+  .boxStage1 {
+      background-color: lightcoral;
+      padding: 10px;
+      border-radius: 5px;
+      width: 10vw; /* Set the width to 1/20th of the viewport width */
+  
+    }
+  
+    .boxStage2 {
+      background-color: rgb(240, 182, 128);
+      padding: 10px;
+      border-radius: 5px;
+      width: 10vw; /* Set the width to 1/20th of the viewport width */
+  
+    }
+  
+    .boxStage3 {
+      background-color: rgb(240, 238, 128);
+      padding: 10px;
+      border-radius: 5px;
+      width: 10vw; /* Set the width to 1/20th of the viewport width */
+  
+    }
+  
+    .boxStage4 {
+      background-color: rgb(143, 240, 128);
+      padding: 10px;
+      border-radius: 5px;
+      width: 10vw; /* Set the width to 1/20th of the viewport width */
+  
+    }
+    
+    .addNodeBox {
+      background-color: rgb(128, 232, 240);
+      padding: 10px;
+      border-radius: 5px;
+      top: 51%;
+      left: 33vw;
+      position: fixed;
+    }
+  
+    .updateNodeBox {
+      background-color: rgb(128, 232, 240);
+      padding: 10px;
+      border-radius: 5px;
+      top: 15%;
+      right: 2vw;
+      position: fixed;
+    }
+  
+    .nodeInfoInput {
+      color: white;
+      width: 43vw; /* Adjust the width value as needed */
+    }
+    
+    .addJobBox {
+      background-color: rgb(132, 240, 128);
+      padding: 10px;
+      border-radius: 5px;
+      top: 2vh;
+      left: 1vw;
+      position: fixed;
+    }
+    .text {
+      color: white;
+    }
+  
+    .nodeInfoText {
+      color: white;
+      word-wrap: break-word; 
+    }
+  
+    .textHeader {
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .textSubHeader {
+      color: white;
+      font-size: 1.25em;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    .line {
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      width: 200px;
+      height: 1px;
+      background-color: black;
+    }
+  
+    .info {
+      background-color: lightcoral;
+      padding: 10px;
+      border-radius: 5px;
+      width: 50vw; /* Set the width to 1/20th of the viewport width */
+      height: 50vw;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
