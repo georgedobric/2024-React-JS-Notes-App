@@ -359,7 +359,7 @@ function Node(props) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 key={obj.id}
-                className="text-white text-center h-min whitespace-nowrap bg-blue-400 border-4 border-pink-300 p-3 rounded-full w-2/3 mx-auto mb-2 top-1  relative"
+                className="text-white text-center h-min whitespace-nowrap bg-blue-400 border-4 border-pink-300 p-3 rounded-full w-1/4 mx-auto mb-2 top-1  relative"
                 onMouseEnter={() => {
                   handleMouseEnter(obj.nodeID);
                 }}
@@ -391,7 +391,7 @@ function Node(props) {
             <textarea
               // className="text-white text-center h-min whitespace-nowrap bg-blue-700 border-4 border-pink-300 p-3 rounded-full w-2/3 mx-auto mb-2 top-1  relative"
               // className="resize-none overflow-hidden h-auto min-h-1em w-full min-h-1em text-white text-center h-min whitespace-nowrap bg-blue-700 border-4 border-pink-300 p-3 rounded-full w-2/3 mx-auto mb-2 top-1  relative"
-              className="resize-none overflow-hidden h-auto min-h-1em w-full min-h-1em"
+              className="mx-auto resize-none overflow-hidden h-auto min-h-1em w-1/4 min-h-1em justify-center relative"
               placeholder="Start typing bullet points..."
               rows={rows}
               value={inputValue}
